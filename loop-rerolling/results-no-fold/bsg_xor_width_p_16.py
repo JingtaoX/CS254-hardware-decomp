@@ -1,0 +1,54 @@
+import pyrtl
+tmp0 = pyrtl.Input(bitwidth=16, name='t0')
+tmp1 = pyrtl.Input(bitwidth=16, name='t1')
+tmp2 = pyrtl.Output(bitwidth=16, name='t2')
+tmp3 = tmp0[0]
+tmp4 = tmp0[1]
+tmp5 = tmp0[2]
+tmp6 = tmp0[3]
+tmp7 = tmp0[4]
+tmp8 = tmp0[5]
+tmp9 = tmp0[6]
+tmp10 = tmp0[7]
+tmp11 = tmp0[8]
+tmp12 = tmp0[9]
+tmp13 = tmp0[10]
+tmp14 = tmp0[11]
+tmp15 = tmp0[12]
+tmp16 = tmp0[13]
+tmp17 = tmp0[14]
+tmp18 = tmp0[15]
+tmp19 = tmp1[0]
+tmp20 = tmp1[1]
+tmp21 = tmp1[2]
+tmp22 = tmp1[3]
+tmp23 = tmp1[4]
+tmp24 = tmp1[5]
+tmp25 = tmp1[6]
+tmp26 = tmp1[7]
+tmp27 = tmp1[8]
+tmp28 = tmp1[9]
+tmp29 = tmp1[10]
+tmp30 = tmp1[11]
+tmp31 = tmp1[12]
+tmp32 = tmp1[13]
+tmp33 = tmp1[14]
+tmp34 = tmp1[15]
+tmp35 = tmp18 ^ tmp34
+tmp36 = tmp17 ^ tmp33
+tmp37 = tmp16 ^ tmp32
+tmp38 = tmp15 ^ tmp31
+tmp39 = tmp14 ^ tmp30
+tmp40 = tmp13 ^ tmp29
+tmp41 = tmp12 ^ tmp28
+tmp42 = tmp11 ^ tmp27
+tmp43 = tmp10 ^ tmp26
+tmp44 = tmp9 ^ tmp25
+tmp45 = tmp8 ^ tmp24
+tmp46 = tmp7 ^ tmp23
+tmp47 = tmp6 ^ tmp22
+tmp48 = tmp5 ^ tmp21
+tmp49 = tmp4 ^ tmp20
+tmp50 = tmp3 ^ tmp19
+tmp51 = pyrtl.concat(tmp35, tmp36, tmp37, tmp38, tmp39, tmp40, tmp41, tmp42, tmp43, tmp44, tmp45, tmp46, tmp47, tmp48, tmp49, tmp50)
+tmp2 <<= tmp51

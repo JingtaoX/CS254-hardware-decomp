@@ -1,0 +1,79 @@
+              digraph g {
+
+              graph [splines="spline"];
+              node [shape=circle, style=filled, fillcolor=lightblue1,
+                    fontcolor=black, fontname=helvetica, penwidth=0,
+                    fixedsize=true];
+              edge [labelfloat=false, penwidth=2, color=deepskyblue, arrowsize=.5];
+                  n0 [label="(1,1)", height=.1, width=.1];
+    n1 [label="f", shape=square, fillcolor=aquamarine1];
+    n2 [label="(0,0)", height=.1, width=.1];
+    n3 [label="(0,0)", height=.1, width=.1];
+    n4 [label="xor"];
+    n5 [label="f", shape=square, fillcolor=aquamarine1];
+    n6 [label="or"];
+    n7 [label="(0,0)", height=.1, width=.1];
+    n8 [label="(1,1)", height=.1, width=.1];
+    n9 [label="", height=.1, width=.1];
+    n10 [label="and"];
+    n11 [label="concat", height=.1, width=.1];
+    n12 [label="concat", height=.1, width=.1];
+    n13 [label="xor"];
+    n14 [label="(1,0)", height=.1, width=.1];
+    n15 [label="", height=.1, width=.1];
+    n16 [label="and"];
+    n17 [label="and"];
+    n18 [label="d", shape=invhouse, fillcolor=coral];
+    n19 [label="f_in_2", shape=invhouse, fillcolor=coral];
+    n20 [label="c", shape=invhouse, fillcolor=coral];
+    n21 [label="f_in_1", shape=invhouse, fillcolor=coral];
+    n22 [label="f_in_0", shape=invhouse, fillcolor=coral];
+    n23 [label="0", shape=circle, fillcolor=lightgrey];
+    n24 [label="a", shape=invhouse, fillcolor=coral];
+    n25 [label="b", shape=invhouse, fillcolor=coral];
+    n26 [label="f_out_1", shape=house, fillcolor=lawngreen];
+    n27 [label="f_out_0", shape=house, fillcolor=lawngreen];
+    n28 [label="q", shape=house, fillcolor=lawngreen];
+    n29 [label="0", shape=circle, fillcolor=lightgrey];
+    n30 [label="0", shape=circle, fillcolor=lightgrey];
+    n31 [label="tmp1", shape=circle, fillcolor=none];
+    n32 [label="tmp2", shape=circle, fillcolor=none];
+
+   n0 -> n17 [label="", penwidth="2", arrowhead="normal"];
+   n1 -> n16 [label="", penwidth="6", arrowhead="normal"];
+   n2 -> n12 [label="", penwidth="2", arrowhead="none"];
+   n3 -> n26 [label="", penwidth="2", arrowhead="normal"];
+   n4 -> n0 [label="", penwidth="6", arrowhead="none"];
+   n4 -> n3 [label="", penwidth="6", arrowhead="none"];
+   n4 -> n12 [label="", penwidth="6", arrowhead="none"];
+   n5 -> n16 [label="", penwidth="6", arrowhead="normal"];
+   n6 -> n11 [label="", penwidth="2", arrowhead="none"];
+   n7 -> n11 [label="", penwidth="2", arrowhead="none"];
+   n7 -> n17 [label="", penwidth="2", arrowhead="normal"];
+   n8 -> n6 [label="", penwidth="2", arrowhead="normal"];
+   n9 -> n27 [label="", penwidth="6", arrowhead="normal"];
+   n10 -> n7 [label="", penwidth="6", arrowhead="none"];
+   n10 -> n8 [label="", penwidth="6", arrowhead="none"];
+   n11 -> n13 [label="", penwidth="6", arrowhead="normal"];
+   n12 -> n13 [label="", penwidth="6", arrowhead="normal"];
+   n13 -> n14 [label="", penwidth="6", arrowhead="none"];
+   n14 -> n9 [label="", penwidth="6", arrowhead="normal"];
+   n15 -> n28 [label="", penwidth="6", arrowhead="normal"];
+   n16 -> n15 [label="", penwidth="6", arrowhead="normal"];
+   n17 -> n6 [label="", penwidth="2", arrowhead="normal"];
+   n18 -> n1 [label="", penwidth="6", arrowhead="normal"];
+   n19 -> n2 [label="", penwidth="2", arrowhead="none"];
+   n20 -> n1 [label="", penwidth="6", arrowhead="normal"];
+   n21 -> n4 [label="", penwidth="6", arrowhead="normal"];
+   n21 -> n10 [label="", penwidth="6", arrowhead="normal"];
+   n22 -> n4 [label="", penwidth="6", arrowhead="normal"];
+   n22 -> n10 [label="", penwidth="6", arrowhead="normal"];
+   n23 -> n11 [label="", penwidth="2", arrowhead="none"];
+   n24 -> n5 [label="", penwidth="6", arrowhead="normal"];
+   n25 -> n5 [label="", penwidth="6", arrowhead="normal"];
+   n29 -> n5 [label="", penwidth="6", arrowhead="normal"];
+   n30 -> n1 [label="", penwidth="6", arrowhead="normal"];
+   n5 -> n31 [label="", penwidth="2", arrowhead="normal"];
+   n1 -> n32 [label="", penwidth="2", arrowhead="normal"];
+}
+

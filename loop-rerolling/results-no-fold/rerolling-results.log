@@ -1,0 +1,570 @@
+./bsg_1_to_n_tagged_num_out_p_32
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_and_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_arb_fixed_lo_to_hi_p_0_inputs_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_counter_overflow_en_init_val_p_0_max_val_p_10000000
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_counter_overflow_set_en_max_val_p_10000000
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_counter_overflow_set_en_max_val_p_100000000000
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_counter_overflow_set_en_max_val_p_1000000000000000
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_decode_num_out_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_decode_with_v_num_out_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.001s
+Loops rerolled: 0
+
+./bsg_dff_gatestack_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_classify_e_p_5_m_p_10
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_clz_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_cmp_e_p_5_m_p_10
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_f2i_e_p_5_m_p_10
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_i2f_e_p_5_m_p_10
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_preprocess_e_p_5_m_p_10
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_fpu_sticky_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_front_side_bus_hop_out_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_gray_to_binary_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_inv_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_level_shift_up_down_sink_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_level_shift_up_down_source_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_mux2_gatestack_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_mux_bitwise_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_muxi2_gatestack_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_nand_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_nor2_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_nor3_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_priority_encode_lo_to_hi_p_0_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_priority_encode_one_hot_out_lo_to_hi_p_0_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_ready_to_credit_flow_converter_credit_initial_p_1_credit_max_val_p_50
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_reduce_segmented_xor_p_1_segments_p_1_segment_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_reduce_xor_p_1_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_relay_fifo_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_wait_after_reset_lg_wait_cycles_p_5
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_wait_cycles_cycles_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_xnor_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_xor_width_p_16
+./run-rerolling.sh: line 12: /usr/bin/racket: No such file or directory
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+Loops rerolled: 0
+
+./bsg_1_to_n_tagged_num_out_p_32
+
+real	0m45.036s
+user	0m43.218s
+sys	0m2.778s
+Loops rerolled: 3
+
+./bsg_and_width_p_16
+
+real	0m8.655s
+user	0m7.925s
+sys	0m0.738s
+Loops rerolled: 0
+
+./bsg_arb_fixed_lo_to_hi_p_0_inputs_p_16
+
+real	0m8.661s
+user	0m7.760s
+sys	0m0.992s
+Loops rerolled: 1
+
+./bsg_counter_overflow_en_init_val_p_0_max_val_p_10000000
+
+real	0m8.764s
+user	0m7.603s
+sys	0m1.333s
+Loops rerolled: 4
+
+./bsg_counter_overflow_set_en_max_val_p_10000000
+
+real	0m8.607s
+user	0m7.471s
+sys	0m1.289s
+Loops rerolled: 4
+
+./bsg_counter_overflow_set_en_max_val_p_100000000000
+
+real	0m10.952s
+user	0m9.758s
+sys	0m1.441s
+Loops rerolled: 5
+
+./bsg_counter_overflow_set_en_max_val_p_1000000000000000
+
+real	0m12.987s
+user	0m11.819s
+sys	0m1.491s
+Loops rerolled: 3
+
+./bsg_decode_num_out_p_16
+
+real	0m3.491s
+user	0m2.979s
+sys	0m0.405s
+Loops rerolled: 0
+
+./bsg_decode_with_v_num_out_p_16
+
+real	0m4.284s
+user	0m3.740s
+sys	0m0.559s
+Loops rerolled: 1
+
+./bsg_dff_gatestack_width_p_16
+
+real	0m3.920s
+user	0m3.383s
+sys	0m0.531s
+Loops rerolled: 1
+
+./bsg_fpu_classify_e_p_5_m_p_10
+
+real	0m6.091s
+user	0m5.013s
+sys	0m1.153s
+Loops rerolled: 1
+
+./bsg_fpu_clz_width_p_16
+
+real	0m9.411s
+user	0m8.496s
+sys	0m1.106s
+Loops rerolled: 1
+
+./bsg_fpu_cmp_e_p_5_m_p_10
+
+real	0m17.784s
+user	0m16.284s
+sys	0m2.021s
+Loops rerolled: 1
+
+./bsg_fpu_f2i_e_p_5_m_p_10
+
+real	0m16.820s
+user	0m14.842s
+sys	0m2.470s
+Loops rerolled: 5
+
+./bsg_fpu_i2f_e_p_5_m_p_10
+
+real	0m31.701s
+user	0m29.620s
+sys	0m3.113s
+Loops rerolled: 13
+
+./bsg_fpu_preprocess_e_p_5_m_p_10
+
+real	0m5.061s
+user	0m4.085s
+sys	0m0.923s
+Loops rerolled: 1
+
+./bsg_fpu_sticky_width_p_16
+
+real	0m13.509s
+user	0m12.489s
+sys	0m1.314s
+Loops rerolled: 6
+
+./bsg_front_side_bus_hop_out_width_p_16
+
+real	0m48.854s
+user	0m47.037s
+sys	0m2.438s
+Loops rerolled: 3
+
+./bsg_gray_to_binary_width_p_16
+
+real	0m29.464s
+user	0m28.630s
+sys	0m0.973s
+Loops rerolled: 1
+
+./bsg_inv_width_p_16
+
+real	0m4.523s
+user	0m3.798s
+sys	0m0.679s
+Loops rerolled: 2
+
+./bsg_level_shift_up_down_sink_width_p_16
+
+real	0m4.584s
+user	0m3.877s
+sys	0m0.716s
+Loops rerolled: 2
+
+./bsg_level_shift_up_down_source_width_p_16
+
+real	0m4.467s
+user	0m3.799s
+sys	0m0.697s
+Loops rerolled: 2
+
+./bsg_mux2_gatestack_width_p_16
+
+real	0m23.274s
+user	0m22.422s
+sys	0m1.033s
+Loops rerolled: 0
+
+./bsg_mux_bitwise_width_p_16
+
+real	0m23.534s
+user	0m22.610s
+sys	0m1.043s
+Loops rerolled: 0
+
+./bsg_muxi2_gatestack_width_p_16
+
+real	0m23.697s
+user	0m22.856s
+sys	0m1.032s
+Loops rerolled: 0
+
+./bsg_nand_width_p_16
+
+real	0m8.835s
+user	0m8.073s
+sys	0m0.801s
+Loops rerolled: 0
+
+./bsg_nor2_width_p_16
+
+real	0m8.065s
+user	0m7.339s
+sys	0m0.740s
+Loops rerolled: 0
+
+./bsg_nor3_width_p_16
+
+real	0m17.307s
+user	0m16.553s
+sys	0m0.925s
+Loops rerolled: 0
+
+./bsg_priority_encode_lo_to_hi_p_0_width_p_16
+
+real	0m9.327s
+user	0m8.318s
+sys	0m1.124s
+Loops rerolled: 1
+
+./bsg_priority_encode_one_hot_out_lo_to_hi_p_0_width_p_16
+
+real	0m8.692s
+user	0m7.803s
+sys	0m0.962s
+Loops rerolled: 1
+
+./bsg_ready_to_credit_flow_converter_credit_initial_p_1_credit_max_val_p_50
+
+real	0m4.107s
+user	0m3.439s
+sys	0m0.646s
+Loops rerolled: 1
+
+./bsg_reduce_segmented_xor_p_1_segments_p_1_segment_width_p_16
+
+real	0m6.187s
+user	0m5.461s
+sys	0m0.742s
+Loops rerolled: 1
+
+./bsg_reduce_xor_p_1_width_p_16
+
+real	0m6.311s
+user	0m5.561s
+sys	0m0.770s
+Loops rerolled: 1
+
+./bsg_relay_fifo_width_p_16
+
+real	0m9.655s
+user	0m8.495s
+sys	0m1.382s
+Loops rerolled: 3
+
+./bsg_wait_after_reset_lg_wait_cycles_p_5
+
+real	0m5.230s
+user	0m4.303s
+sys	0m0.909s
+Loops rerolled: 1
+
+./bsg_wait_cycles_cycles_p_16
+
+real	0m4.682s
+user	0m3.836s
+sys	0m0.889s
+Loops rerolled: 4
+
+./bsg_xnor_width_p_16
+
+real	0m7.488s
+user	0m6.817s
+sys	0m0.731s
+Loops rerolled: 0
+
+./bsg_xor_width_p_16
+
+real	0m7.519s
+user	0m6.836s
+sys	0m0.737s
+Loops rerolled: 0
+

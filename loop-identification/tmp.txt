@@ -1,0 +1,6 @@
+
+Running benchmark: basejump-netlists/bsg_1_to_n_tagged_num_out_p_32.blif
+Input Wire, reset_i has been deemed useless by optimization
+wires: 254, nets: 246
+potential loops identified: 11
+[[6, 1, 37], [43, 1, 4], [48, 1, 4], [52, 2, 4], [53, 1, 8], [62, 1, 12], [75, 1, 16], [92, 1, 16], [109, 1, 31], [156, 9, 3], [183, 2, 32]]

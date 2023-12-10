@@ -1,0 +1,35 @@
+#lang rosette
+(require "../netlist_ir.rkt")
+(require "../sketch_gen.rkt")
+
+(def-netlist basejump-netlists/bsg_decode_num_out_p_16.blif
+(hash 0 4)
+(hash 1 16)
+(hash)
+(2 (ws (bv-const 1 16) (arange 0 15)))
+(3 (wc (list 2 (bv-const 0 1))))
+(4 (ws (bv-const 1 16) (arange 1 16)))
+(5 (wc (list (bv-const 0 1) 4)))
+(6 (wx (bv-const 1 1) 5 3))
+(7 (wx (ws 0 (list 0)) (bv-const 1 16) 6))
+(8 (ws (bv-const 0 2) (arange 0 2)))
+(9 (wc (list (ws 7 (arange 0 14)) 8)))
+(10 (wc (list 8 (ws 7 (arange 2 16)))))
+(11 (wx (bv-const 1 1) 10 9))
+(12 (wx (ws 0 (list 1)) 7 11))
+(13 (wc (list 8 8)))
+(14 (wc (list (ws 12 (arange 0 12)) (ws 13 (arange 0 4)))))
+(15 (wc (list (ws 13 (arange 0 4)) (ws 12 (arange 4 16)))))
+(16 (wx (bv-const 1 1) 15 14))
+(17 (wx (ws 0 (list 2)) 12 16))
+(18 (wc (list (ws 13 (arange 0 4)) (ws 13 (arange 0 4)))))
+(19 (wc (list (ws 17 (arange 0 8)) (ws 18 (arange 0 8)))))
+(20 (wc (list (ws 18 (arange 0 8)) (ws 17 (arange 8 16)))))
+(21 (wx (bv-const 1 1) 20 19))
+(22 (wx (ws 0 (list 3)) 17 21))
+(1 (<<= 22)))
+
+(define internal-signals (hash 2 15 3 16 4 15 5 16 6 16 7 16 8 2 9 16 10 16 11 16 12 16 13 4 14 16 15 16 16 16 17 16 18 8 19 16 20 16 21 16 22 16))
+
+(sketch-reroll basejump-netlists/bsg_decode_num_out_p_16.blif (loops (18 1 3)))
+

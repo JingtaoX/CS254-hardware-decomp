@@ -1,0 +1,23 @@
+# load modules into current design
+read_verilog -nolatches -defer top.v
+
+# check the design and instantiate
+hierarchy -check -top top
+
+# replace processes in the design with multiplexers, flip-flops, and latches
+proc; opt
+
+# convert memories to word-wide DFFs and address decoders
+memory; opt
+
+# extract and optimize finite state machines
+fsm; opt
+
+# map internal register types to the ones from the cell library
+dfflibmap -liberty cells.lib
+
+# replaces the .subckt (i.e. the module inclusions) with their actual contents
+flatten; opt
+
+# output blif
+write_blif top.blif

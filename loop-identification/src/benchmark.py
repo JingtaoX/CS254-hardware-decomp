@@ -19,7 +19,8 @@ def blif_double_benchmark(bench=blif_name, clock="clk"):
     pyrtl.input_from_blif(blif, clock_name=clock, block=pyrtl.working_block())
 
 def blif_benchmark(bench=blif_name, clock="clk"):
-    bench = "basejump-netlists/" + bench + ".blif"
+    # bench = "basejump-netlists/" + bench + ".blif"
+    bench = "basejump-blif/" + bench + ".blif"  # Modified by ZHY on 2023-12-10
 
     with open(bench) as f:
         blif = f.read()

@@ -2,6 +2,7 @@ from loop_id_local import *
 import benchmark
 from copy import deepcopy
 from pprint import pprint
+import argparse
 
 do_print = 0
 class FunctionNameSpace:
@@ -369,6 +370,7 @@ def run(name, do_print=False, print_ast=False):
     extracted_num = 0
     while True:
         ast, has_rewrite = function_extraction(ast)
+        print(ast)
         # break
         if not has_rewrite:
             break
@@ -401,21 +403,18 @@ def run_loop_reroll(names):
 
 import argparse
 if __name__ == '__main__':
-    name = "bsg_fpu_classify_e_p_8_m_p_23"
-    do_print=1
+    # name = "bsg_fpu_classify_e_p_8_m_p_23"
 
-    # Create the parser
     parser = argparse.ArgumentParser()
-
-    # Add an argument
-    parser.add_argument('--file', '-f', type=str, default='', help='input file')
-
-    # Parse the argument
+    parser.add_argument('--file', '-f', type=str, default='bsg_fpu_classify_e_p_8_m_p_23', help='input file (benchmark name)')
     args = parser.parse_args()
-    if args.file:
-        name = args.file
+    name = args.file
+    if name.endswith(".blif"):
+        name = name[:-5]
 
-    run(name, print_ast=1)
+    do_print=0
+
+    run(name, print_ast=0)
 
 
 

@@ -20,7 +20,7 @@ After successfully running, the script produces a BLIF file `mux2_gatestack.blif
 Pass the netlist (in BLIF format) to the loop identification script:
 
 ```shell
-$ python3 ../../loop-identification/blif-benchmark.py -pyrtl mux2_gatestack.blif
+$ python3 ../../procedural-abstraction/blif-benchmark.py -pyrtl mux2_gatestack.blif
 ```
 
 This produces a Racket file (`mux2_gatestack.rkt`) with the Maki IR code and driver to call loop rerolling.

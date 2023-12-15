@@ -7,7 +7,9 @@ module top
   v_i,
   tag_i,
   yumi_o,
+  yumi_o1, // added for decompiling
   v_o,
+  v_o1, // added for decompiling
   ready_i
 );
 

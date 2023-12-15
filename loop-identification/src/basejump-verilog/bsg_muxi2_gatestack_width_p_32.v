@@ -5,7 +5,10 @@ module top
   i0,
   i1,
   i2,
-  o
+  o,
+  i01, // added for decompiling
+  i11, // added for decompiling
+  o1 // added for decompiling
 );
 
   input [31:0] i0;

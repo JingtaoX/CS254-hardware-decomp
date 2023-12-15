@@ -4,7 +4,9 @@ module top
 (
   v0_data_i,
   v1_en_i,
-  v1_data_o
+  v1_data_o,
+  v1_data_o1 // added for decompiling
+  v1_en_i1 // added for decompiling
 );
 
   input [31:0] v0_data_i;

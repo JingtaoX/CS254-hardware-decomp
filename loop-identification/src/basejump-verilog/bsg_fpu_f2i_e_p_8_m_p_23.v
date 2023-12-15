@@ -5,7 +5,10 @@ module top
   a_i,
   signed_i,
   z_o,
-  invalid_o
+  invalid_o,
+  signed_i1, // added for decompiling
+  z_o1, // added for decompiling
+  invalid_o1 // added for decompiling
 );
 
   input [31:0] a_i;

@@ -3,7 +3,9 @@
 module top
 (
   a_i,
-  class_o
+  class_o,
+  a_i1, // added for decompiling
+  class_o1 // added for decompiling
 );
 
   input [31:0] a_i;

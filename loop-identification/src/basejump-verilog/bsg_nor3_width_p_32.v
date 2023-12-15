@@ -5,7 +5,11 @@ module top
   a_i,
   b_i,
   c_i,
-  o
+  o,
+  a_i1, // added for decompiling
+  b_i1, // added for decompiling
+  c_i1, // added for decompiling
+  o1 // added for decompiling
 );
 
   input [31:0] a_i;

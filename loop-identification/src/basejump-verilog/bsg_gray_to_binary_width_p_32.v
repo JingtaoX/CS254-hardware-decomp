@@ -3,7 +3,9 @@
 module top
 (
   gray_i,
-  binary_o
+  binary_o,
+  gray_i1, // added for decompiling
+  binary_o1 // added for decompiling
 );
 
   input [31:0] gray_i;

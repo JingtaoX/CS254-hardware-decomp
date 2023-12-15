@@ -3,7 +3,9 @@
 module top
 (
   i,
-  num_zero_o
+  num_zero_o,
+  i1, // added for decompiling
+  num_zero_o1 // added for decompiling
 );
 
   input [15:0] i;

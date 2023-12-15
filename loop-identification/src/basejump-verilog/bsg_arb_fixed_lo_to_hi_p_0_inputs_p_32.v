@@ -4,7 +4,9 @@ module top
 (
   ready_i,
   reqs_i,
-  grants_o
+  grants_o,
+  grants_o1, // added for decompling
+  ready_i1 // added for decompling
 );
 
   input [31:0] reqs_i;

@@ -12,7 +12,17 @@ module top
   denormal_o,
   sign_o,
   exp_o,
-  man_o
+  man_o,
+  exp_o1, // added for decompiling
+  man_o1, // added for decompiling
+  zero_o1, // added for decompiling
+  nan_o1, // added for decompiling
+  sig_nan_o1, // added for decompiling
+  infty_o1, // added for decompiling
+  exp_zero_o1, // added for decompiling
+  man_zero_o1, // added for decompiling
+  denormal_o1, // added for decompiling
+  sign_o1 // added for decompiling
 );
 
   input [15:0] a_i;

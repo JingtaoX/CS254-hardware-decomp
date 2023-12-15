@@ -4,7 +4,8 @@ module top
 (
   i,
   shamt_i,
-  sticky_o
+  sticky_o,
+  sticky_o1 // added for decompiling
 );
 
   input [15:0] i;

@@ -3,7 +3,8 @@
 module top
 (
   i,
-  o
+  o,
+  o1, // added for decompiling
 );
 
   input [4:0] i;

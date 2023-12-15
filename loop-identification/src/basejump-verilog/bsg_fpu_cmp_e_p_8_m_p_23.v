@@ -11,7 +11,17 @@ module top
   eq_invalid_o,
   min_o,
   max_o,
-  min_max_invalid_o
+  min_max_invalid_o,
+  a_i1, // added for decompiling
+  b_i1, // added for decompiling
+  min_o1, // added for decompiling
+  max_o1, // added for decompiling
+  eq_o1, // added for decompiling
+  lt_o1, // added for decompiling
+  le_o1, // added for decompiling
+  lt_le_invalid_o1, // added for decompiling
+  eq_invalid_o1, // added for decompiling
+  min_max_invalid_o1 // added for decompiling
 );
 
   input [31:0] a_i;

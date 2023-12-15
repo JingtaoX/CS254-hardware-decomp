@@ -4,7 +4,8 @@ module top
 (
   data_i,
   sel_i,
-  data_o
+  data_o,
+  data_o1 // added for decompiling
 );
 
   input [511:0] data_i;

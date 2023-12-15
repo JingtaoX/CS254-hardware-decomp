@@ -3,12 +3,13 @@
 module top
 (
   i,
-  o
+  o,
+  o1 // added for decompiling
 );
 
   input [15:0] i;
   output o;
-  input [15:0] i;
+  // input [15:0] i;
   output o1; // added for decompiling
 
   bsg_reduce

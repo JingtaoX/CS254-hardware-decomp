@@ -4,7 +4,9 @@ module top
 (
   i,
   o,
-  v_o
+  v_o,
+  o1, // added for decompiling
+  v_o1 // added for decompiling
 );
 
   input [15:0] i;

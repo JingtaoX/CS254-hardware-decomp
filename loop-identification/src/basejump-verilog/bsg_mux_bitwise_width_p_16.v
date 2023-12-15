@@ -5,7 +5,8 @@ module top
   data0_i,
   data1_i,
   sel_i,
-  data_o
+  data_o,
+  data_o1 // added for decompiling
 );
 
   input [15:0] data0_i;

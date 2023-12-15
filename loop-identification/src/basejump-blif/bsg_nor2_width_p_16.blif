@@ -2,27 +2,11 @@
 
 .model top
 .inputs a_i[0] a_i[1] a_i[2] a_i[3] a_i[4] a_i[5] a_i[6] a_i[7] a_i[8] a_i[9] a_i[10] a_i[11] a_i[12] a_i[13] a_i[14] a_i[15] b_i[0] b_i[1] b_i[2] b_i[3] b_i[4] b_i[5] b_i[6] b_i[7] b_i[8] b_i[9] b_i[10] b_i[11] b_i[12] b_i[13] b_i[14] b_i[15]
-.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] o[8] o[9] o[10] o[11] o[12] o[13] o[14] o[15]
+.outputs o[0] o[1] o[2] o[3] o[4] o[5] o[6] o[7] o[8] o[9] o[10] o[11] o[12] o[13] o[14] o[15] o1[0] o1[1] o1[2] o1[3] o1[4] o1[5] o1[6] o1[7] o1[8] o1[9] o1[10] o1[11] o1[12] o1[13] o1[14] o1[15]
 .names $false
 .names $true
 1
 .names $undef
-.subckt $and A=a_i[15] B=b_i[15] Y=wrapper.N0
-.subckt $and A=a_i[14] B=b_i[14] Y=wrapper.N1
-.subckt $and A=a_i[13] B=b_i[13] Y=wrapper.N2
-.subckt $and A=a_i[12] B=b_i[12] Y=wrapper.N3
-.subckt $and A=a_i[11] B=b_i[11] Y=wrapper.N4
-.subckt $and A=a_i[10] B=b_i[10] Y=wrapper.N5
-.subckt $and A=a_i[9] B=b_i[9] Y=wrapper.N6
-.subckt $and A=a_i[8] B=b_i[8] Y=wrapper.N7
-.subckt $and A=a_i[7] B=b_i[7] Y=wrapper.N8
-.subckt $and A=a_i[6] B=b_i[6] Y=wrapper.N9
-.subckt $and A=a_i[5] B=b_i[5] Y=wrapper.N10
-.subckt $and A=a_i[4] B=b_i[4] Y=wrapper.N11
-.subckt $and A=a_i[3] B=b_i[3] Y=wrapper.N12
-.subckt $and A=a_i[2] B=b_i[2] Y=wrapper.N13
-.subckt $and A=a_i[1] B=b_i[1] Y=wrapper.N14
-.subckt $and A=a_i[0] B=b_i[0] Y=wrapper.N15
 .subckt $not A=wrapper.N0 Y=wrapper.o[15]
 .subckt $not A=wrapper.N1 Y=wrapper.o[14]
 .subckt $not A=wrapper.N2 Y=wrapper.o[13]
@@ -38,7 +22,25 @@
 .subckt $not A=wrapper.N12 Y=wrapper.o[3]
 .subckt $not A=wrapper.N13 Y=wrapper.o[2]
 .subckt $not A=wrapper.N14 Y=wrapper.o[1]
-.subckt $not A=wrapper.N15 Y=wrapper.o[0]
+.subckt $or A=a_i[15] B=b_i[15] Y=wrapper.N0
+.subckt $or A=a_i[14] B=b_i[14] Y=wrapper.N1
+.subckt $or A=a_i[13] B=b_i[13] Y=wrapper.N2
+.subckt $or A=a_i[12] B=b_i[12] Y=wrapper.N3
+.subckt $or A=a_i[11] B=b_i[11] Y=wrapper.N4
+.subckt $or A=a_i[10] B=b_i[10] Y=wrapper.N5
+.subckt $or A=a_i[9] B=b_i[9] Y=wrapper.N6
+.subckt $or A=a_i[8] B=b_i[8] Y=wrapper.N7
+.subckt $or A=a_i[7] B=b_i[7] Y=wrapper.N8
+.subckt $or A=a_i[6] B=b_i[6] Y=wrapper.N9
+.subckt $or A=a_i[5] B=b_i[5] Y=wrapper.N10
+.subckt $or A=a_i[4] B=b_i[4] Y=wrapper.N11
+.subckt $or A=a_i[3] B=b_i[3] Y=wrapper.N12
+.subckt $or A=a_i[2] B=b_i[2] Y=wrapper.N13
+.subckt $or A=a_i[1] B=b_i[1] Y=wrapper.N14
+.subckt $or A=a_i[0] B=b_i[0] Y=wrapper.N15
+.subckt $not A=wrapper.N15 Y=wrapper1.o[0]
+.names wrapper1.o[0] wrapper.o[0]
+1 1
 .names b_i[0] wrapper.b_i[0]
 1 1
 .names b_i[1] wrapper.b_i[1]
@@ -103,7 +105,133 @@
 1 1
 .names a_i[15] wrapper.a_i[15]
 1 1
-.names wrapper.o[0] o[0]
+.names wrapper.o[1] wrapper1.o[1]
+1 1
+.names wrapper.o[2] wrapper1.o[2]
+1 1
+.names wrapper.o[3] wrapper1.o[3]
+1 1
+.names wrapper.o[4] wrapper1.o[4]
+1 1
+.names wrapper.o[5] wrapper1.o[5]
+1 1
+.names wrapper.o[6] wrapper1.o[6]
+1 1
+.names wrapper.o[7] wrapper1.o[7]
+1 1
+.names wrapper.o[8] wrapper1.o[8]
+1 1
+.names wrapper.o[9] wrapper1.o[9]
+1 1
+.names wrapper.o[10] wrapper1.o[10]
+1 1
+.names wrapper.o[11] wrapper1.o[11]
+1 1
+.names wrapper.o[12] wrapper1.o[12]
+1 1
+.names wrapper.o[13] wrapper1.o[13]
+1 1
+.names wrapper.o[14] wrapper1.o[14]
+1 1
+.names wrapper.o[15] wrapper1.o[15]
+1 1
+.names b_i[0] wrapper1.b_i[0]
+1 1
+.names b_i[1] wrapper1.b_i[1]
+1 1
+.names b_i[2] wrapper1.b_i[2]
+1 1
+.names b_i[3] wrapper1.b_i[3]
+1 1
+.names b_i[4] wrapper1.b_i[4]
+1 1
+.names b_i[5] wrapper1.b_i[5]
+1 1
+.names b_i[6] wrapper1.b_i[6]
+1 1
+.names b_i[7] wrapper1.b_i[7]
+1 1
+.names b_i[8] wrapper1.b_i[8]
+1 1
+.names b_i[9] wrapper1.b_i[9]
+1 1
+.names b_i[10] wrapper1.b_i[10]
+1 1
+.names b_i[11] wrapper1.b_i[11]
+1 1
+.names b_i[12] wrapper1.b_i[12]
+1 1
+.names b_i[13] wrapper1.b_i[13]
+1 1
+.names b_i[14] wrapper1.b_i[14]
+1 1
+.names b_i[15] wrapper1.b_i[15]
+1 1
+.names a_i[0] wrapper1.a_i[0]
+1 1
+.names a_i[1] wrapper1.a_i[1]
+1 1
+.names a_i[2] wrapper1.a_i[2]
+1 1
+.names a_i[3] wrapper1.a_i[3]
+1 1
+.names a_i[4] wrapper1.a_i[4]
+1 1
+.names a_i[5] wrapper1.a_i[5]
+1 1
+.names a_i[6] wrapper1.a_i[6]
+1 1
+.names a_i[7] wrapper1.a_i[7]
+1 1
+.names a_i[8] wrapper1.a_i[8]
+1 1
+.names a_i[9] wrapper1.a_i[9]
+1 1
+.names a_i[10] wrapper1.a_i[10]
+1 1
+.names a_i[11] wrapper1.a_i[11]
+1 1
+.names a_i[12] wrapper1.a_i[12]
+1 1
+.names a_i[13] wrapper1.a_i[13]
+1 1
+.names a_i[14] wrapper1.a_i[14]
+1 1
+.names a_i[15] wrapper1.a_i[15]
+1 1
+.names wrapper.N9 wrapper1.N9
+1 1
+.names wrapper.N8 wrapper1.N8
+1 1
+.names wrapper.N7 wrapper1.N7
+1 1
+.names wrapper.N6 wrapper1.N6
+1 1
+.names wrapper.N5 wrapper1.N5
+1 1
+.names wrapper.N4 wrapper1.N4
+1 1
+.names wrapper.N3 wrapper1.N3
+1 1
+.names wrapper.N2 wrapper1.N2
+1 1
+.names wrapper.N15 wrapper1.N15
+1 1
+.names wrapper.N14 wrapper1.N14
+1 1
+.names wrapper.N13 wrapper1.N13
+1 1
+.names wrapper.N12 wrapper1.N12
+1 1
+.names wrapper.N11 wrapper1.N11
+1 1
+.names wrapper.N10 wrapper1.N10
+1 1
+.names wrapper.N1 wrapper1.N1
+1 1
+.names wrapper.N0 wrapper1.N0
+1 1
+.names wrapper1.o[0] o[0]
 1 1
 .names wrapper.o[1] o[1]
 1 1
@@ -134,5 +262,37 @@
 .names wrapper.o[14] o[14]
 1 1
 .names wrapper.o[15] o[15]
+1 1
+.names wrapper1.o[0] o1[0]
+1 1
+.names wrapper.o[1] o1[1]
+1 1
+.names wrapper.o[2] o1[2]
+1 1
+.names wrapper.o[3] o1[3]
+1 1
+.names wrapper.o[4] o1[4]
+1 1
+.names wrapper.o[5] o1[5]
+1 1
+.names wrapper.o[6] o1[6]
+1 1
+.names wrapper.o[7] o1[7]
+1 1
+.names wrapper.o[8] o1[8]
+1 1
+.names wrapper.o[9] o1[9]
+1 1
+.names wrapper.o[10] o1[10]
+1 1
+.names wrapper.o[11] o1[11]
+1 1
+.names wrapper.o[12] o1[12]
+1 1
+.names wrapper.o[13] o1[13]
+1 1
+.names wrapper.o[14] o1[14]
+1 1
+.names wrapper.o[15] o1[15]
 1 1
 .end

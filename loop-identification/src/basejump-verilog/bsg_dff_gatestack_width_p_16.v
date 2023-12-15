@@ -4,7 +4,10 @@ module top
 (
   i0,
   i1,
-  o
+  o,
+  i01, // added for decompiling
+  i11, // added for decompiling
+  o1 // added for decompiling
 );
 
   input [15:0] i0;
